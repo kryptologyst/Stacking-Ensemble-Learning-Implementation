@@ -1,0 +1,56 @@
+# Default configuration for stacking ensemble learning experiments
+
+# Dataset settings
+dataset:
+  name: "breast_cancer"  # Options: breast_cancer, wine, iris, synthetic
+  test_size: 0.2
+  random_state: 42
+
+# Model settings
+models:
+  simple_stacking:
+    cv_folds: 5
+    meta_model: "logistic"  # Options: logistic, ridge, svm
+    
+  advanced_stacking:
+    level1_models: ["rf", "gb", "svm", "knn", "dt", "xgb", "lgb"]
+    level2_models: ["ridge", "svm_meta"]
+    cv_folds: 5
+    
+  blending:
+    holdout_size: 0.2
+    meta_model: "logistic"
+
+# Evaluation settings
+evaluation:
+  cv_folds: 5
+  metrics: ["accuracy", "precision", "recall", "f1", "roc_auc", "log_loss"]
+  random_state: 42
+
+# Training settings
+training:
+  random_state: 42
+  save_results: true
+  save_dir: "assets"
+
+# Visualization settings
+visualization:
+  figsize: [12, 8]
+  save_plots: true
+  plot_format: "png"
+  dpi: 300
+
+# Hyperparameter search settings
+hyperparameter_search:
+  enabled: false
+  param_grid:
+    cv_folds: [3, 5, 7]
+    meta_model: ["logistic", "ridge", "svm"]
+  n_trials: 20
+
+# Ablation study settings
+ablation:
+  enabled: false
+  base_model: "simple_stacking"
+  test_individual: true
+  test_ensemble: true

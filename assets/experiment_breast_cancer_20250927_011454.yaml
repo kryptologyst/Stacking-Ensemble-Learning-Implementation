@@ -1,0 +1,305 @@
+dataset: breast_cancer
+leaderboard:
+- !!python/tuple
+  - advanced_stacking
+  - 0.956140350877193
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      aLHcIHHXgD8=
+- !!python/tuple
+  - simple_stacking
+  - 0.9473684210526315
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FyABEiABgj8=
+- !!python/tuple
+  - sklearn_stacking
+  - 0.9473684210526315
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ACABEiABgj8=
+- !!python/tuple
+  - voting
+  - 0.9473684210526315
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U7HcIHHXgD8=
+- !!python/tuple
+  - blending
+  - 0.9385964912280702
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U7HcIHHXgD8=
+metadata:
+  class_names: !!python/object/apply:numpy._core.multiarray._reconstruct
+    args:
+    - &id002 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 2
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U9
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 36
+      - 4
+      - 8
+    - false
+    - !!binary |
+      bQAAAGEAAABsAAAAaQAAAGcAAABuAAAAYQAAAG4AAAB0AAAAYgAAAGUAAABuAAAAaQAAAGcAAABu
+      AAAAAAAAAAAAAAAAAAAA
+  description: Breast cancer classification dataset
+  feature_names: !!python/object/apply:numpy._core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 30
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U23
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 92
+      - 4
+      - 8
+    - false
+    - !!binary |
+      bQAAAGUAAABhAAAAbgAAACAAAAByAAAAYQAAAGQAAABpAAAAdQAAAHMAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtAAAAZQAAAGEAAABuAAAAIAAAAHQA
+      AABlAAAAeAAAAHQAAAB1AAAAcgAAAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAG0AAABlAAAAYQAAAG4AAAAgAAAAcAAAAGUAAAByAAAAaQAAAG0AAABlAAAA
+      dAAAAGUAAAByAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbQAAAGUAAABh
+      AAAAbgAAACAAAABhAAAAcgAAAGUAAABhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtAAAAZQAAAGEAAABuAAAAIAAAAHMAAABtAAAAbwAA
+      AG8AAAB0AAAAaAAAAG4AAABlAAAAcwAAAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAG0AAABlAAAAYQAAAG4AAAAgAAAAYwAAAG8AAABtAAAAcAAAAGEAAABjAAAAdAAAAG4AAABl
+      AAAAcwAAAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbQAAAGUAAABhAAAAbgAAACAA
+      AABjAAAAbwAAAG4AAABjAAAAYQAAAHYAAABpAAAAdAAAAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAABtAAAAZQAAAGEAAABuAAAAIAAAAGMAAABvAAAAbgAAAGMAAABhAAAA
+      dgAAAGUAAAAgAAAAcAAAAG8AAABpAAAAbgAAAHQAAABzAAAAAAAAAAAAAAAAAAAAAAAAAG0AAABl
+      AAAAYQAAAG4AAAAgAAAAcwAAAHkAAABtAAAAbQAAAGUAAAB0AAAAcgAAAHkAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbQAAAGUAAABhAAAAbgAAACAAAABmAAAAcgAA
+      AGEAAABjAAAAdAAAAGEAAABsAAAAIAAAAGQAAABpAAAAbQAAAGUAAABuAAAAcwAAAGkAAABvAAAA
+      bgAAAAAAAAByAAAAYQAAAGQAAABpAAAAdQAAAHMAAAAgAAAAZQAAAHIAAAByAAAAbwAAAHIAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAABlAAAAeAAAAHQA
+      AAB1AAAAcgAAAGUAAAAgAAAAZQAAAHIAAAByAAAAbwAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAGUAAAByAAAAaQAAAG0AAABlAAAAdAAAAGUAAAByAAAA
+      IAAAAGUAAAByAAAAcgAAAG8AAAByAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABh
+      AAAAcgAAAGUAAABhAAAAIAAAAGUAAAByAAAAcgAAAG8AAAByAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHMAAABtAAAAbwAAAG8AAAB0AAAAaAAA
+      AG4AAABlAAAAcwAAAHMAAAAgAAAAZQAAAHIAAAByAAAAbwAAAHIAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAYwAAAG8AAABtAAAAcAAAAGEAAABjAAAAdAAAAG4AAABlAAAAcwAAAHMAAAAg
+      AAAAZQAAAHIAAAByAAAAbwAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjAAAAbwAAAG4A
+      AABjAAAAYQAAAHYAAABpAAAAdAAAAHkAAAAgAAAAZQAAAHIAAAByAAAAbwAAAHIAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMAAABvAAAAbgAAAGMAAABhAAAAdgAAAGUAAAAgAAAA
+      cAAAAG8AAABpAAAAbgAAAHQAAABzAAAAIAAAAGUAAAByAAAAcgAAAG8AAAByAAAAAAAAAAAAAAAA
+      AAAAcwAAAHkAAABtAAAAbQAAAGUAAAB0AAAAcgAAAHkAAAAgAAAAZQAAAHIAAAByAAAAbwAAAHIA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAAAcgAAAGEAAABjAAAAdAAA
+      AGEAAABsAAAAIAAAAGQAAABpAAAAbQAAAGUAAABuAAAAcwAAAGkAAABvAAAAbgAAACAAAABlAAAA
+      cgAAAHIAAABvAAAAcgAAAHcAAABvAAAAcgAAAHMAAAB0AAAAIAAAAHIAAABhAAAAZAAAAGkAAAB1
+      AAAAcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdwAAAG8A
+      AAByAAAAcwAAAHQAAAAgAAAAdAAAAGUAAAB4AAAAdAAAAHUAAAByAAAAZQAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3AAAAbwAAAHIAAABzAAAAdAAAACAAAABwAAAA
+      ZQAAAHIAAABpAAAAbQAAAGUAAAB0AAAAZQAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAHcAAABvAAAAcgAAAHMAAAB0AAAAIAAAAGEAAAByAAAAZQAAAGEAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdwAAAG8AAAByAAAAcwAA
+      AHQAAAAgAAAAcwAAAG0AAABvAAAAbwAAAHQAAABoAAAAbgAAAGUAAABzAAAAcwAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAB3AAAAbwAAAHIAAABzAAAAdAAAACAAAABjAAAAbwAAAG0AAABw
+      AAAAYQAAAGMAAAB0AAAAbgAAAGUAAABzAAAAcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHcA
+      AABvAAAAcgAAAHMAAAB0AAAAIAAAAGMAAABvAAAAbgAAAGMAAABhAAAAdgAAAGkAAAB0AAAAeQAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdwAAAG8AAAByAAAAcwAAAHQAAAAgAAAA
+      YwAAAG8AAABuAAAAYwAAAGEAAAB2AAAAZQAAACAAAABwAAAAbwAAAGkAAABuAAAAdAAAAHMAAAAA
+      AAAAAAAAAAAAAAB3AAAAbwAAAHIAAABzAAAAdAAAACAAAABzAAAAeQAAAG0AAABtAAAAZQAAAHQA
+      AAByAAAAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHcAAABvAAAAcgAA
+      AHMAAAB0AAAAIAAAAGYAAAByAAAAYQAAAGMAAAB0AAAAYQAAAGwAAAAgAAAAZAAAAGkAAABtAAAA
+      ZQAAAG4AAABzAAAAaQAAAG8AAABuAAAA
+  n_classes: 2
+  n_features: 30
+  n_samples: 569
+models_tested:
+- simple_stacking
+- advanced_stacking
+- blending
+- sklearn_stacking
+- voting
+results:
+  advanced_stacking:
+    accuracy: 0.956140350877193
+    average_precision: 0.9085589851430114
+    cv_mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      oPM5n/M57z8=
+    cv_scores:
+    - 0.989010989010989
+    - 0.978021978021978
+    - 0.978021978021978
+    - 0.967032967032967
+    - 0.967032967032967
+    cv_std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      aLHcIHHXgD8=
+    f1: 0.9557756825927252
+    log_loss: 0.18060771086981328
+    precision: 0.9568690958164642
+    recall: 0.956140350877193
+    roc_auc: 0.9371693121693122
+  blending:
+    accuracy: 0.9385964912280702
+    average_precision: 0.987441899802286
+    cv_mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PvADP/AD7z8=
+    cv_scores:
+    - 0.978021978021978
+    - 0.9560439560439561
+    - 0.978021978021978
+    - 0.967032967032967
+    - 0.967032967032967
+    cv_std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U7HcIHHXgD8=
+    f1: 0.9372286827846255
+    log_loss: 0.19011907416365262
+    precision: 0.944037308461026
+    recall: 0.9385964912280702
+    roc_auc: 0.980489417989418
+  simple_stacking:
+    accuracy: 0.9473684210526315
+    average_precision: 0.9862103640128852
+    cv_mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      gPInf/In7z8=
+    cv_scores:
+    - 0.989010989010989
+    - 0.967032967032967
+    - 0.978021978021978
+    - 0.967032967032967
+    - 0.967032967032967
+    cv_std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FyABEiABgj8=
+    f1: 0.9463967611336033
+    log_loss: 0.1750545053812187
+    precision: 0.9514170040485831
+    recall: 0.9473684210526315
+    roc_auc: 0.978505291005291
+  sklearn_stacking:
+    accuracy: 0.9473684210526315
+    average_precision: 0.9881688244903568
+    cv_mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XvEVX/EV7z8=
+    cv_scores:
+    - 0.978021978021978
+    - 0.9560439560439561
+    - 0.978021978021978
+    - 0.978021978021978
+    - 0.967032967032967
+    cv_std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ACABEiABgj8=
+    f1: 0.9463967611336033
+    log_loss: 0.16596833515763307
+    precision: 0.9514170040485831
+    recall: 0.9473684210526315
+    roc_auc: 0.9818121693121693
+  voting:
+    accuracy: 0.9473684210526315
+    average_precision: 0.9866209721161432
+    cv_mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PvADP/AD7z8=
+    cv_scores:
+    - 0.978021978021978
+    - 0.9560439560439561
+    - 0.978021978021978
+    - 0.967032967032967
+    - 0.967032967032967
+    cv_std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U7HcIHHXgD8=
+    f1: 0.9463967611336033
+    log_loss: 0.16856311867493667
+    precision: 0.9514170040485831
+    recall: 0.9473684210526315
+    roc_auc: 0.9791666666666667
+summary:
+  best_accuracy: 0.956140350877193
+  best_f1: 0.9557756825927252
+  mean_accuracy: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    DeU1lNdQ7j8=
+  mean_f1: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    FsZeSzpJ7j8=
+  mean_training_time: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ZmZmdtgUL0A=
+  num_models: 5
+  std_accuracy: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    81EAIlm5dj8=
+  total_training_time: 77.7035698890686
+  worst_accuracy: 0.9385964912280702
+training_times:
+  advanced_stacking: 50.25836396217346
+  blending: 3.7303528785705566
+  simple_stacking: 11.136951923370361
+  sklearn_stacking: 10.51774525642395
+  voting: 2.0601558685302734

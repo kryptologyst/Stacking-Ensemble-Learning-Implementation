@@ -1,0 +1,80 @@
+================================================================================
+ENSEMBLE LEARNING EVALUATION REPORT
+================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+ACCURACY: 0.9474 ± 0.0055
+PRECISION: 0.9510 ± 0.0041
+RECALL: 0.9474 ± 0.0055
+F1: 0.9464 ± 0.0059
+ROC_AUC: 0.9714 ± 0.0172
+LOG_LOSS: 0.1761 ± 0.0087
+
+INDIVIDUAL MODEL RESULTS
+----------------------------------------
+
+SIMPLE_STACKING:
+  accuracy: 0.9474
+  precision: 0.9514
+  recall: 0.9474
+  f1: 0.9464
+  roc_auc: 0.9785
+  average_precision: 0.9862
+  log_loss: 0.1751
+  cv_mean: 0.9736
+  cv_std: 0.0088
+
+ADVANCED_STACKING:
+  accuracy: 0.9561
+  precision: 0.9569
+  recall: 0.9561
+  f1: 0.9558
+  roc_auc: 0.9372
+  average_precision: 0.9086
+  log_loss: 0.1806
+  cv_mean: 0.9758
+  cv_std: 0.0082
+
+BLENDING:
+  accuracy: 0.9386
+  precision: 0.9440
+  recall: 0.9386
+  f1: 0.9372
+  roc_auc: 0.9805
+  average_precision: 0.9874
+  log_loss: 0.1901
+  cv_mean: 0.9692
+  cv_std: 0.0082
+
+SKLEARN_STACKING:
+  accuracy: 0.9474
+  precision: 0.9514
+  recall: 0.9474
+  f1: 0.9464
+  roc_auc: 0.9818
+  average_precision: 0.9882
+  log_loss: 0.1660
+  cv_mean: 0.9714
+  cv_std: 0.0088
+
+VOTING:
+  accuracy: 0.9474
+  precision: 0.9514
+  recall: 0.9474
+  f1: 0.9464
+  roc_auc: 0.9792
+  average_precision: 0.9866
+  log_loss: 0.1686
+  cv_mean: 0.9692
+  cv_std: 0.0082
+
+LEADERBOARD (by Accuracy)
+----------------------------------------
+ 1. advanced_stacking    0.9561 ± 0.0082
+ 2. simple_stacking      0.9474 ± 0.0088
+ 3. sklearn_stacking     0.9474 ± 0.0088
+ 4. voting               0.9474 ± 0.0082
+ 5. blending             0.9386 ± 0.0082
+
+================================================================================
